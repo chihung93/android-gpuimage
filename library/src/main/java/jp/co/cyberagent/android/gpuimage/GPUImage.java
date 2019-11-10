@@ -780,7 +780,7 @@ public class GPUImage {
         void response(T item);
     }
 
-    public GPUImageRenderer getRenderer() {
+    public GPUImageRenderer getGPUImageRenderer() {
         return renderer;
     }
 }
